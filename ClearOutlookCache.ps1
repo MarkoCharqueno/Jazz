@@ -1,0 +1,1 @@
+﻿cmdkey /list | ForEach-Object{if($_ -like "*Target:*" -and $_ -like "*Microsoft*"){cmdkey /del:($_ -replace " ","" -replace "Target:","")}}

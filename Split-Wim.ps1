@@ -1,0 +1,1 @@
+﻿Split-WindowsImage -ImagePath "C:\Mount\install.wim" -SplitImagePath "C:\Mount\Split\split.swm" -FileSize 2048 -CheckIntegrity

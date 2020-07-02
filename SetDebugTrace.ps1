@@ -1,0 +1,1 @@
+﻿Set-PSDebug -Trace 0/1
